@@ -6,8 +6,8 @@ Simple bash script that greps through AllTheLinks on a website.
 
 ## Features
 - Colors, because
-- Includes Curl flags for HTTPS and Redirects
-- Pipe the output to wfuzz or gobuster
+- Includes Curl flags for HTTPS and redirects
+- Pipe the output to Wfuzz or Gobuster
 - Its better than looking through sloppy source code, I guess
 - Great for PenTesting™
 
