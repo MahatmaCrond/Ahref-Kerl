@@ -1,4 +1,4 @@
-# Ahref-Kerlº
+# Ahref-Kerl
 Simple bash script that greps through AllTheLinks on a website.
 
 ## Usage
