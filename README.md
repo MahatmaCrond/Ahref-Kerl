@@ -1,5 +1,5 @@
 # Ahref-Kerl
-Simple bash script that greps through AllTheLinks on a website.
+Simple bash script that greps through AllTheLinks on a website and outputs them just for you
 
 ## Usage
 ./ahref-kerl https://google.com
