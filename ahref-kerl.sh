@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Bash colours
+## Bash colours because we like nice things.
 YELLOW="\033[01;33m"
 BLUE="\033[01;34m"
 BOLD="\033[01;01m"
@@ -16,3 +16,5 @@ echo -e "${YELLOW}[i]${RESET}" ${BOLD} $1 ${RESET}
 echo -e "${BLUE}Here is a list of all of the links found on the page${RESET}"
 printf "\n"
 curl -i $1 -k -L | grep -o -E 'href="([^"#]+)"' | cut -d'"' -f2 | uniq
+printf "\n"
+echo -e "${YELLOW}FIN. ${RESET}"
