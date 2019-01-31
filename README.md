@@ -1,13 +1,13 @@
-# Ahref-Kerl
-Simple bash script that greps through all of the links on a webpage
+# Ahref-Kerlº
+Simple bash script that greps through AllTheLinks on a website.
 
-### Usage
+## Usage
 ./ahref-kerl https://google.com
 
-### Features
+## Features
 - Colors, because
-- Includes syntax for HTTPS and Redirects
+- Includes Curl flags for HTTPS and Redirects
 - Pipe the output to wfuzz or gobuster
-- Better than looking through sloppy source code
+- Its better than looking through sloppy source code, I guess
 - Great for PenTesting™
 
